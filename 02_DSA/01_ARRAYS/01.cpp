@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
   public:
     void reverseArray(vector<int> &arr) {
@@ -17,18 +14,3 @@ class Solution {
         
     }
 };
-
-int main(){
-
-    int arr[5] = {1,2,3,4,5};
-    for(int i =0 ; i<5 ; i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
-    for(int i : arr){
-        cout<<i<<" ";
-    }
-
-
-    return 0;
-}
